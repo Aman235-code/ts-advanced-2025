@@ -1,0 +1,20 @@
+
+// inference
+const doubleFunc = (n:number) => n*2
+
+// explicit retur for exported/public func
+export function totitle(s: string): string{
+    return `Hello ${s}`
+}
+
+function booleanToNum(flag: boolean): number {
+    if(flag){
+        return 1
+    }else{
+        return 0;
+    }
+}
+
+async function loadCount() {
+    return 42
+}
